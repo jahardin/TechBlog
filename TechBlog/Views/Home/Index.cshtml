@@ -22,7 +22,6 @@
 
 </head>
     <body>
-        <div id="header"></div>
         <nav class="navbar navbar-default" role="navigation">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -58,12 +57,17 @@
                 </div>
             </div>
         </nav>
+
+        <div class="left aside-1">
+               <p>ASIDE</p>
+           </div>
         
        <div class="content" data-ng-app="">
+           
+
             <div class="form form-search">
                 Topic Name: <input type="text" data-ng-model="topicString" /> {{ topicString }}<br />
                 Thread ID: <input type="text" data-ng-model="threadString" /> {{threadString}}
-                <p style="font-size:66px">Can you see this Jacobus?</p>
             </div>
            
        </div>
@@ -72,7 +76,6 @@
         <div id="footer">
             <div class="container">
                 CREATED BY JACOBUS HARDING AND MATT HARTZ<br />
-                Can you see this Matt
             </div>
         </div>
     </body>

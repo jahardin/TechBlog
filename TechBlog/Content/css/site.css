@@ -4,13 +4,52 @@
      box-sizing: border-box;
 }
 
-/*
-    Header Styles
+
+/*NAVE STYLES
+    ---------------------------------------
+    */
+
+.navbar
+{
+    min-height:55px;
+    border-radius:none; 
+}
+
+/* Header Styles
+    ----------------------------------------
     */
 .container-fluid
 {
-    width:38%;
+    width:100%;
+    margin-left:25%;
 }
+
+
+/*CONTENT
+    --------------------------------    
+    */
+.content
+{
+    margin-left:25%; 
+}
+
+
+
+/* Aside-1 styles
+    -----------------------------------------
+    */
+.aside-1
+{
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    width:25%;
+    background:#ededed;
+}
+
+
+
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -22,7 +61,6 @@ body {
   /* Margin bottom by footer height */
     margin-bottom: 60px;
     margin: 0 auto;
-    overflow: hidden;
 }
 #footer {
     position: absolute;
