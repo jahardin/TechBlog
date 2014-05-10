@@ -135,17 +135,20 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\directives\" />
-    <Folder Include="app\partials\" />
     <Folder Include="app\services\" />
     <Folder Include="App_Data\" />
     <Folder Include="Content\images\" />
-    <Folder Include="Views\Partials\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\partials\account\" />
+    <Content Include="app\partials\account\home.cshtml" />
+    <Content Include="app\partials\account\login.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
