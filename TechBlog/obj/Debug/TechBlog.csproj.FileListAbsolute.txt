@@ -26,3 +26,30 @@ G:\Grave My Documents\Visual Studio 2013\Projects\TechBlog\TechBlog\bin\System.W
 G:\Grave My Documents\Visual Studio 2013\Projects\TechBlog\TechBlog\obj\Debug\TechBlog.csprojResolveAssemblyReference.cache
 G:\Grave My Documents\Visual Studio 2013\Projects\TechBlog\TechBlog\obj\Debug\TechBlog.dll
 G:\Grave My Documents\Visual Studio 2013\Projects\TechBlog\TechBlog\obj\Debug\TechBlog.pdb
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\TechBlog.dll
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\TechBlog.pdb
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\Newtonsoft.Json.dll
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\System.Net.Http.Formatting.dll
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\System.Web.Helpers.dll
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\System.Web.Http.dll
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\System.Web.Http.WebHost.dll
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\System.Web.Mvc.dll
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\System.Web.Razor.dll
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\System.Web.WebPages.dll
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\System.Web.WebPages.Razor.dll
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\Newtonsoft.Json.xml
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\System.Net.Http.Formatting.xml
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\System.Web.Helpers.xml
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\System.Web.Http.xml
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\System.Web.Http.WebHost.xml
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\System.Web.Mvc.xml
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\System.Web.Razor.xml
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\System.Web.WebPages.xml
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\System.Web.WebPages.Razor.xml
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\obj\Debug\TechBlog.csprojResolveAssemblyReference.cache
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\obj\Debug\TechBlog.dll
+C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\obj\Debug\TechBlog.pdb
