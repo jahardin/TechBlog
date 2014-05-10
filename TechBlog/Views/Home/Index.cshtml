@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
     
     <!-- Vendor Libs-->
-    <script src="/Content/Scripts/angular.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"></script>
     
@@ -19,9 +18,10 @@
     <!-- App Libs -->
     <script src="/app/app.js"></script> 
     <script src="/app/controllers/controllers.js"></script> 
+    <script src="/app/directives/directives.js"></script> 
 
 </head>
-    <body>
+    <body ng-app="TechBlogApp">
         <div id="header"></div>
         <nav class="navbar navbar-default" role="navigation">
             <div class="container-fluid">
@@ -64,16 +64,23 @@
                 Topic Name: <input type="text" data-ng-model="topicString" /> {{ topicString }}<br />
                 Thread ID: <input type="text" data-ng-model="threadString" /> {{threadString}}
                 <p style="font-size:66px">Can you see this Jacobus?</p>
-            </div>
-           
-       </div>
-            
+            </div>          
+       </div>         
     
+        <div ng-controller='MyCtrl'>
+            <button ng-click='toggleModal()'>Open Modal Dialog</button>
+            <modal-dialog show='modalShown' width='400px' height='60%'>
+                <p>Modal Content Goes here<p>
+            </modal-dialog>
+        </div>
+
         <div id="footer">
             <div class="container">
                 CREATED BY JACOBUS HARDING AND MATT HARTZ<br />
                 Can you see this Matt
             </div>
         </div>
+        
+        
     </body>
 </html>
