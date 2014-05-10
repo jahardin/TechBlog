@@ -4,6 +4,14 @@
      box-sizing: border-box;
 }
 
+/*
+    Header Styles
+    */
+.container-fluid
+{
+    width:38%;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -13,7 +21,6 @@ html {
 body {
   /* Margin bottom by footer height */
     margin-bottom: 60px;
-    width: 990px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -24,6 +31,21 @@ body {
     /* Set the fixed height of the footer here */
     height: 60px;
     background-color: #f5f5f5;
+}
+
+
+
+/* Helper Styels
+    ==========================
+    */
+.left
+{
+    float:left;
+}
+
+.right
+{
+    float: right;
 }
 
 
