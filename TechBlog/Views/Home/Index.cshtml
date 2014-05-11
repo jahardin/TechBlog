@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
     
     <!-- Vendor Libs-->
-    <script src="/Content/Scripts/angular.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"></script>
     
@@ -19,9 +18,15 @@
     <!-- App Libs -->
     <script src="/app/app.js"></script> 
     <script src="/app/controllers/controllers.js"></script> 
+    <script src="/app/directives/directives.js"></script> 
 
 </head>
+<<<<<<< HEAD
     <body>
+=======
+    <body ng-app="TechBlogApp">
+        <div id="header"></div>
+>>>>>>> 53e62c9e2e3d792f9ca693386b6bf9348d5e3b0f
         <nav class="navbar navbar-default" role="navigation">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -69,15 +74,30 @@
             <div class="form form-search">
                 Topic Name: <input type="text" data-ng-model="topicString" /> {{ topicString }}<br />
                 Thread ID: <input type="text" data-ng-model="threadString" /> {{threadString}}
+<<<<<<< HEAD
             </div>
            
        </div>
             
+=======
+                <p style="font-size:66px">Can you see this Jacobus?</p>
+            </div>          
+       </div>         
+>>>>>>> 53e62c9e2e3d792f9ca693386b6bf9348d5e3b0f
     
+        <div ng-controller='MyCtrl'>
+            <button ng-click='toggleModal()'>Open Modal Dialog</button>
+            <modal-dialog show='modalShown' width='400px' height='60%'>
+                <p>Modal Content Goes here<p>
+            </modal-dialog>
+        </div>
+
         <div id="footer">
             <div class="container">
                 CREATED BY JACOBUS HARDING AND MATT HARTZ<br />
             </div>
         </div>
+        
+        
     </body>
 </html>
