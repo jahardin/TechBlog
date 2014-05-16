@@ -20,3 +20,14 @@ app.controller('MyCtrl', ['$scope', function ($scope) {
         $scope.modalShown = !$scope.modalShown;
     };
 }]);
+
+app.controller('nameListCtrl', ['$scope', function ($scope) {
+    $scope.users = [
+        {name: 'Jacobus Harding', city:'Irvine'},
+        { name: 'Matthew Hartz', city: 'Irvine' },
+        {name: 'random', city:'place'},
+        {name: 'specific', city:'place'}
+    ];
+    
+}]);
+

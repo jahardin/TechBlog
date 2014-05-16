@@ -24,3 +24,14 @@
             "</div></div></div>"
     };
 });
+
+app.directive('myModule', function () {
+    return {
+        restrict: 'A',
+        scope: {
+            title: '@'
+        },
+        templateUrl: '/partials/module.html',
+        transclude: true
+    };
+});

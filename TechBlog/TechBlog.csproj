@@ -113,6 +113,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Account.cs" />
+    <Compile Include="Models\BlogTemplate1.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -124,6 +125,7 @@
     <Content Include="app\controllers\controllers.js" />
     <Content Include="app\directives\directives.js" />
     <Content Include="Content\css\site.css" />
+    <Content Include="Content\images\funny-face-photo16.jpg" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -137,7 +139,6 @@
   <ItemGroup>
     <Folder Include="app\services\" />
     <Folder Include="App_Data\" />
-    <Folder Include="Content\images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -149,6 +150,15 @@
     <Content Include="app\partials\account\" />
     <Content Include="app\partials\account\home.cshtml" />
     <Content Include="app\partials\account\login.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\partials\users\_PartialPage1.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Models\ViewPage1.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\partials\Blogs\_Template1.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
