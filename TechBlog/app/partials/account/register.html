@@ -1,0 +1,22 @@
+﻿<div class='ng-modal' ng-show='registerShown'>
+    <div class='ng-modal-overlay' ng-click='hideRegister'></div>
+    <div class='ng-modal-dialog' ng-style='registerStyle'>
+        <div class='ng-modal-close' ng-click='hideRegister()'>X</div>
+        <div class='ng-modal-dialog-content' ng-transclude>
+            <form name="registerForm" id="registerForm" ng-submit="register(credentials)" novalidate>
+                This is registration!
+                <div class="loginInput">
+                    <label for="username">Username:</label>
+                    <input type="text" id="registerUsername"
+                           ng-model="credentials.username" />
+                </div>
+                <div class="loginInput">
+                    <label for="password">Password:</label>
+                    <input type="password" id="registerPassword"
+                           ng-model="credentials.password" />
+                </div>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+</div>

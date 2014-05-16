@@ -1,28 +1,11 @@
-﻿app.controller('AccountController', function($scope) {
-    init();
-
-    function init() {
-        $scope.loggedIn = false;
-    }
-
-    function logIn() {
-        $scope.loggedIn = true;
-    }
-
-    function logOut() {
-        $scope.loggedIn = false;
-    }
-
-    function createAccount() {
-        
-    }
-});
-
-app.controller('MyCtrl', ['$scope', '$location', function ($scope) {
-    $scope.modalShown = false;
-    $scope.toggleModal = function () {
-        $scope.modalShown = !$scope.modalShown;
-
+﻿app.controller('AccountController', ['$scope', '$location', function ($scope) {
+    $scope.loginShown = false;
+    $scope.registerShown = false;
+    $scope.toggleModal = function (modal) {
+        if (modal === "login")
+            $scope.loginShown = !$scope.loginShown;
+        else if (modal === "register")
+            $scope.registerShown = !$scope.registerShown;
     };
 
     $scope.changeView = function(view) {

@@ -21,7 +21,7 @@
     <script src="/app/directives/directives.js"></script> 
 
 </head>
-<body ng-app="TechBlogApp" ng-controller='MyCtrl'>
+<body ng-app="TechBlogApp" ng-controller="AccountController">
     <div id="header"></div>
     <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
@@ -42,10 +42,10 @@
                     <li><a href="#">Topics</a></li>
                     <li><a href="#">Discussions</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#login" ng-click='toggleModal()'>Sign in</a></li>
-                            <li><a href="#">Register</a></li>
+                            <li><a ng-click='toggleModal("login")'>Sign in</a></li>
+                            <li><a ng-click='toggleModal("register")'>Register</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -65,9 +65,7 @@
 
     <div class="content" data-ng-app="">
         <div class="form form-search">
-            Topic Name: <input type="text" data-ng-model="topicString" /> {{ topicString }}<br />
-            Thread ID: <input type="text" data-ng-model="threadString" /> {{threadString}}
-            <p style="font-size:66px">Can you see this Jacobus?</p>
+
         </div>
     </div>
 
@@ -77,8 +75,12 @@
         </div>
     </div>
 
-    <modal-dialog show='modalShown' width='300px' height='400px'>
-        <div data-ng-view=""></div>   
-    </modal-dialog>
+    <div>
+        <login-dialog width='300px' height='400px'>
+        </login-dialog>
+
+        <register-dialog width='300px' height='400px'>
+        </register-dialog>
+    </div>
 </body>
 </html>

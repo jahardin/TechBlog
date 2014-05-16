@@ -1,26 +1,35 @@
-﻿app.directive('modalDialog', function() {
+﻿app.directive('loginDialog', function () {
     return {
         restrict: 'E',
-        scope: {
-            show: '='
-        },
-        replace: true, // Replace with the template below
-        transclude: true, // we want to insert custom content inside the directive
+        transclude: true,
         link: function(scope, element, attrs) {
-            scope.dialogStyle = {};
+            scope.loginStyle = {};
             if (attrs.width)
-                scope.dialogStyle.width = attrs.width;
+                scope.loginStyle.width = attrs.width;
             if (attrs.height)
-                scope.dialogStyle.height = attrs.height;
-            scope.hideModal = function() {
-                scope.show = false;
+                scope.loginStyle.height = attrs.height;
+            scope.hideLogin = function() {
+                scope.loginShown = false;
             };
         },
-        template: "<div class='ng-modal' ng-show='show'>" +
-            "<div class='ng-modal-overlay' ng-click='hideModal()'>" +
-            "</div><div class='ng-modal-dialog' ng-style='dialogStyle'>" +
-            "<div class='ng-modal-close' ng-click='hideModal()'>X</div>" +
-            "<div class='ng-modal-dialog-content' ng-transclude>" +
-            "</div></div></div>"
+        templateUrl: '/app/partials/account/login.html'
+    };
+});
+
+app.directive('registerDialog', function () {
+    return {
+        restrict: 'E',
+        transclude: true,
+        link: function (scope, element, attrs) {
+            scope.registerStyle = {};
+            if (attrs.width)
+                scope.registerStyle.width = attrs.width;
+            if (attrs.height)
+                scope.registerStyle.height = attrs.height;
+            scope.hideRegister = function () {
+                scope.registerShown = false;
+            };
+        },
+        templateUrl: '/app/partials/account/register.html'
     };
 });

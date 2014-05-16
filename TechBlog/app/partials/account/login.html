@@ -1,0 +1,22 @@
+﻿<div class='ng-modal' ng-show='loginShown'>
+    <div class='ng-modal-overlay' ng-click='hideLogin()'></div>
+    <div class='ng-modal-dialog' ng-style='loginStyle'>
+        <div class='ng-modal-close' ng-click='hideLogin()'>X</div>
+        <div class='ng-modal-dialog-content' ng-transclude>
+            <form name="loginForm" id="loginForm" ng-submit="login(credentials)" novalidate>
+                <div class="loginInput">
+                    <label for="username">Username:</label>
+                    <input type="text" id="loginUsername"
+                           ng-model="credentials.username" />
+                </div>
+                <div class="loginInput">
+                    <label for="password">Password:</label>
+                    <input type="password" id="loginPassword"
+                           ng-model="credentials.password" />
+                </div>
+                <button type="submit">Login</button>
+                <a style="margin-left: 10px">Forgot Password?</a>
+            </form>
+        </div>
+    </div>
+</div>

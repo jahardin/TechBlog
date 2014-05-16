@@ -1,9 +1,11 @@
-﻿var controllerProvider = null;
-var app = angular.module('TechBlogApp', [], function($controllerProvider) {
-    controllerProvider = $controllerProvider;
-});
+﻿var app = angular.module('TechBlogApp', []);
 
-app.config(function($routeProvider) {
+//var controllerProvider = null;
+//var app = angular.module('TechBlogApp', [], function($controllerProvider) {
+//    controllerProvider = $controllerProvider;
+//});
+
+/*app.config(function($routeProvider) {
     $routeProvider
         .when('/login',
         {
@@ -15,4 +17,4 @@ app.config(function($routeProvider) {
 
         })
         .otherwise({ redirectTo: '/'});
-});
+});*/

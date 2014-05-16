@@ -125,7 +125,9 @@
     <Content Include="app\directives\directives.js" />
     <Content Include="Content\css\site.css" />
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -150,10 +152,10 @@
     <Content Include="app\partials\account\home.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\partials\account\login.cshtml" />
+    <Content Include="app\partials\account\login.html" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\partials\account\register.cshtml" />
+    <Content Include="app\partials\account\register.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
