@@ -4,25 +4,65 @@
      box-sizing: border-box;
 }
 
-/*
-    Header Styles
+
+/*NAVE STYLES
+    ---------------------------------------
+    */
+
+.navbar
+{
+    min-height:55px;
+    border-radius:none; 
+}
+
+/* Header Styles
+    ----------------------------------------
     */
 .container-fluid
 {
-    width:38%;
+    width:100%;
+    margin-left:25%;
 }
+
+
+/*CONTENT
+    --------------------------------    
+    */
+.content
+{
+    margin-left:25%; 
+}
+
+
+
+/* Aside-1 styles
+    -----------------------------------------
+    */
+.aside-1
+{
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    width:25%;
+    background:#ededed;
+}
+
+
+
 
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
     position: relative;
     min-height: 100%;
+    height: 100%;
 }
 body {
   /* Margin bottom by footer height */
     margin-bottom: 60px;
     margin: 0 auto;
-    overflow: hidden;
+    height: 100%;
 }
 #footer {
     position: absolute;
@@ -92,7 +132,7 @@ body {
     -moz-transform: translate(-50%, -50%);
 
     background-color: #fff;
-    box-shadow: 4px 4px 80px #000;
+    box-shadow: 4px 4px 40px #000;
 }
 .ng-modal-dialog-content {
     padding:10px;
@@ -108,4 +148,12 @@ body {
     display: inline-block;
     font-weight: bold;
     font-family: 'arial', 'sans-serif';
+}
+
+.loginInput {
+    margin: 0 0 10px 0;
+}
+
+#loginForm {
+    padding: 10px 10px 10px 10px;
 }

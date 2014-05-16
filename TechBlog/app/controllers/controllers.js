@@ -12,11 +12,20 @@
     function logOut() {
         $scope.loggedIn = false;
     }
+
+    function createAccount() {
+        
+    }
 });
 
-app.controller('MyCtrl', ['$scope', function ($scope) {
+app.controller('MyCtrl', ['$scope', '$location', function ($scope) {
     $scope.modalShown = false;
     $scope.toggleModal = function () {
         $scope.modalShown = !$scope.modalShown;
+
     };
+
+    $scope.changeView = function(view) {
+        $location.path(view);
+    }
 }]);

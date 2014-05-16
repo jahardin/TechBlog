@@ -8,7 +8,11 @@ app.config(function($routeProvider) {
         .when('/login',
         {
             controller: 'AccountController',
-            templateUrl: '/app/partials/login.cshtml'
+            templateUrl: 'app/partials/login.cshtml'
         })
-        .otherwise({ redirectTo: '/home'});
+        .when('/',
+        {
+
+        })
+        .otherwise({ redirectTo: '/'});
 });

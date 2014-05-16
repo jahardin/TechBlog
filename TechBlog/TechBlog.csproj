@@ -148,7 +148,12 @@
   <ItemGroup>
     <Content Include="app\partials\account\" />
     <Content Include="app\partials\account\home.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="app\partials\account\login.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\partials\account\register.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
