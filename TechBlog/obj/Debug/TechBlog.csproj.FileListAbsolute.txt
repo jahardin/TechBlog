@@ -53,3 +53,4 @@ C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\bin\System.Web.WebPages.Razo
 C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\obj\Debug\TechBlog.csprojResolveAssemblyReference.cache
 C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\obj\Debug\TechBlog.dll
 C:\Users\Jacobus\Documents\GitHub\TechBlog\TechBlog\obj\Debug\TechBlog.pdb
+G:\Grave My Documents\Visual Studio 2013\Projects\TechBlog\TechBlog\bin\MySql.Data.dll

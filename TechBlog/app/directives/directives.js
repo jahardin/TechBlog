@@ -16,7 +16,7 @@
     };
 });
 
-app.directive('registerDialog', function () {
+app.directive('registerDialog', ['$http', function ($http) {
     return {
         restrict: 'E',
         transclude: true,
@@ -29,7 +29,17 @@ app.directive('registerDialog', function () {
             scope.hideRegister = function () {
                 scope.registerShown = false;
             };
+            scope.register = function (credentials) {
+                $http({
+                    method: 'POST',
+                    url: '/Account/Register',
+                    data: JSON.stringify({credentials : credentials}),
+                    headers: { 'Content-Type': 'application/json' }
+                }).success(function(data) {
+                    alert('fuckyeahaaaahahh');
+                });
+            }
         },
         templateUrl: '/app/partials/account/register.html'
     };
-});
+}]);
