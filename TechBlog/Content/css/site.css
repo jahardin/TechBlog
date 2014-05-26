@@ -37,6 +37,10 @@
     margin: 0 auto;
 }
 
+    .content .container
+    {
+        width:50%; 
+    }
 
 
 /* Aside-1 styles

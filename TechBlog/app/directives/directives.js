@@ -42,4 +42,19 @@ app.directive('registerDialog', ['$http', function ($http) {
         },
         templateUrl: '/app/partials/account/register.html'
     };
+<<<<<<< HEAD
 }]);
+=======
+});
+
+app.directive('myModule', function () {
+    return {
+        restrict: 'A',
+        scope: {
+            title: '@'
+        },
+        templateUrl: '/partials/module.html',
+        transclude: true
+    };
+});
+>>>>>>> f3002e9b70af96831bf583e87798d127e33f9ffe
